@@ -1,7 +1,34 @@
-.col{
-	display: grid;
-	grid-template-columns: repeat(12,1fr);
+*{
+	box-sizing: border-box;
+}
+.col a{
+	display: flex;
+	text-decoration: none;
+	color:black;
+}
+#cost{
+	color:red;
+	font-weight: 800;
+
 }
 .col img{
+	height: 100px;
+	margin:0 auto;
 
+}
+.header{
+	background-color: orange;
+}
+h1{
+	font-size: 18px;
+	font-weight: 800;
+	text-align: justify;
+	
+}
+p{
+	margin: 0px 0px 5px;
+	font-size: 12px;
+}
+.aaa{
+	background: rgba(187, 235, 16, 0.3);
 }
