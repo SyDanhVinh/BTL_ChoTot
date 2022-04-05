@@ -1,0 +1,32 @@
+.logo{
+    width: auto;
+    height:auto;
+    max-width:100%;
+    max-height: 20px;
+}
+.nav-menu{
+    display:flex;
+    list-style-type: none;
+}
+.nav-menu li{
+    padding: 5px 30px;
+}
+.nav-menu li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.nav-menu li a:hover{
+    background-color: yellow;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 0px 30px;
+}
+.img-logo{
+    
+}
